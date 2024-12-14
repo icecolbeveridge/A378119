@@ -50,4 +50,4 @@ Therefore $k = a_0 \cdot 10^{b_0}$ is the smallest $k$ that satisfies both $n \m
 
 ### Consequence
 
-Since $\t\text{A378119}(n)$ is the smallest positive integer $k$ satisfying $n \mid 	\text{digsum}(k)$ and $n \mid 	\text{digsum}(k+1)$, we have $\t\text{A378119}(n) = \t\text{A051885}(n) \cdot 10^{9^{-1} \pmod n}-1$.
+Since $\\text{A378119}(n)$ is the smallest positive integer $k$ satisfying $n \mid 	\text{digsum}(k)$ and $n \mid 	\text{digsum}(k+1)$, we have $\text{A378119}(n) = \text{A051885}(n) \cdot 10^{9^{-1} \pmod n}-1$.
