@@ -19,7 +19,7 @@ If $k = a \cdot 10^b$, where $a \mod{10} \ne 0$, then $\text{digsum}(k-1) = 	\te
 
 #### Demonstration
 
-* $\text{digsum}(k) 	\text{digsum}(a)$ (because $k$ is $a$ followed by a $b$ zeroes.) 
+* $\text{digsum}(k)=	\text{digsum}(a)$ (because $k$ is $a$ followed by a $b$ zeroes.) 
 * $\text{digsum}(k-1) = 	\text{digsum}(a-1)+ 	\text{digsum}(10^b-1)$. The first term is $\text{digsum}(a)-1$ by Lemma 1, and the second term is $9b$ because $10^b-1$ is a string of $b$ nines.
 * Hence $\text{digsum}(k-1) = 	\text{digsum}(k) + 9b -1$.
 
