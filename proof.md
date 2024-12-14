@@ -39,7 +39,7 @@ We then have $An = 	\text{digsum}(a)$. Given this, $Bn = 	\text{digsum}(a) + 9b 
 
 **Remark**: If $n$ were a multiple of 3, 9 would have no multiplicative inverse. 
 
-For $k = a\cdot 10^b$ to satisfy $\text{digsum}(k) = An$ and $\text{digsum}(k-1)=Bn$, it is necessary and sufficient that:
+For $k = a\cdot 10^b$ to satisfy $\text{digsum}(k) = An$ and $\text{digsum}(k-1)=Bn$ for integer $n>1$, it is necessary and sufficient that:
 
 1. $\text{digsum}(a)=An$; and
 2. $b = 9^{-1}\pmod{n} + nt$ (for some non-negative integer $t$)
