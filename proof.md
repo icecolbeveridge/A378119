@@ -1,4 +1,4 @@
-$\newcommand{\ds}[1]{\text{digsum}(\\#1)}$
+$$\newcommand{\ds}[1]{\text{digsum}(\\#1)}$$
 
 ***Note**: All numbers are positive integers unless otherwise stated.*
 
