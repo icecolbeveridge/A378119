@@ -44,7 +44,7 @@ For $k = a\cdot 10^b$ to satisfy $\text{digsum}(k) = An$ and $\text{digsum}(k-1)
 1. $\text{digsum}(a)=An$; and
 2. $b = 9^{-1}\pmod{n} + nt$ (for some non-negative integer $t$)
 
-In particular, $b_0 = 9^{-1} \pmod{n}$ is the smallest $b$ that satisfies condition 2 (so $k$ must end in at least $b_0$ zeros), and $a_0 = \t\text{A051885}(n)$ is the smallest $a$ that satisfies condition 1. 
+In particular, $b_0 = 9^{-1} \pmod{n}$ is the smallest $b$ that satisfies condition 2 (so $k$ must end in at least $b_0$ zeros), and $a_0 = \text{A051885}(n)$ is the smallest $a$ that satisfies condition 1. 
 
 Therefore $k = a_0 \cdot 10^{b_0}$ is the smallest $k$ that satisfies both $n \mid 	\text{digsum}(k)$ and $n \mid 	\text{digsum}(k-1)$.
 
