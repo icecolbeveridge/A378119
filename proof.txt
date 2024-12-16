@@ -1,4 +1,4 @@
-Note: All numbers are positive integers unless otherwise stated.
+Note: All numbers used here are positive integers unless otherwise stated.
 
 Definition: digsum(n) is the digit sum of n. For example, digsum(789) = 7 + 8 + 9 = 24 .
 
